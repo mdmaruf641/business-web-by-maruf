@@ -1,3 +1,10 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-heading h2, .service-text a{
+    color: #709dca;
+}
 .main-nav{
     position: absolute;
     top: 0;
@@ -6,7 +13,10 @@
     z-index: 99;
 }
 .bnr-btn{
-    background-color: #709dca;
+    border: 2px solid #709dca;
+}
+.bnr-btn:hover{
+    background-color: #709dca
 }
 .slider-overlay::before{
     content: '';
@@ -19,5 +29,27 @@
     background-color: rgba(0, 0, 0, .5);
 }
 
+.service-text h4{
+    color: #394b50;
+}
+.service-text p{
+    color: #7b7b7b;
+}
+
+.service-text:hover a{
+    color: #ffc155;
+}
+
+.about-text{
+    background-color: #ffc155;
+}
+
+.about-btn{
+    border: 2px solid #cb8d21;
+    transition: .2s;
+}
+.about-btn:hover{
+    background-color: #e7ad48;
+}
 
   
