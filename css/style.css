@@ -1,0 +1,30 @@
+.main-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+.bnr-btn{
+    background-color: #709dca;
+}
+
+/* .slider-overlay img{
+    height: 300px !important;
+} */
+
+.slider-overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, .5);
+
+
+}
+
+
+  
