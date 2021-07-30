@@ -1,24 +1,37 @@
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.section-heading h2, .service-text a{
+img {
+    vertical-align: middle;
+}
+
+.section-heading h2,
+.service-text a {
     color: #709dca;
 }
-.main-nav{
+
+.section-heading p {
+    color: #394b50;
+}
+
+.main-nav {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 99;
 }
-.bnr-btn{
+
+.bnr-btn {
     border: 2px solid #709dca;
 }
-.bnr-btn:hover{
+
+.bnr-btn:hover {
     background-color: #709dca
 }
-.slider-overlay::before{
+
+.slider-overlay::before {
     content: '';
     position: absolute;
     top: 0;
@@ -29,27 +42,107 @@ body{
     background-color: rgba(0, 0, 0, .5);
 }
 
-.service-text h4{
+.service-text h4 {
     color: #394b50;
 }
-.service-text p{
+
+.service-text p {
     color: #7b7b7b;
 }
 
-.service-text:hover a{
+.service-text:hover a {
     color: #ffc155;
 }
 
-.about-text{
+.about-text {
     background-color: #ffc155;
 }
 
-.about-btn{
+.about-btn {
     border: 2px solid #cb8d21;
     transition: .2s;
 }
-.about-btn:hover{
+
+.about-btn:hover {
     background-color: #e7ad48;
 }
 
-  
+.dvdr {
+    height: 2px;
+    width: 100px;
+    background-color: #ffc155;
+}
+
+.dvdr-icon {
+    color: #ffc155;
+}
+
+.mix-per-btn {
+    border: 2px solid #709dca;
+}
+
+.mix-per-btn:hover {
+    background-color: #709dca;
+    color: #fff;
+}
+
+.mix-img-1,
+.mix-img-2,
+.mix-img-3,
+.mix-img-4,
+.mix-img-5,
+.mix-img-6,
+.mix-img-7,
+.mix-img-8 {
+    position: relative;
+}
+
+.img-overlay,
+.img-overlay-2,
+.img-overlay-3,
+.img-overlay-4,
+.img-overlay-5,
+.img-overlay-6,
+.img-overlay-7,
+.img-overlay-8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5bd5bc4;
+    transform: scale(0);
+    transition: .4s;
+}
+
+.mix-img-1:hover .img-overlay {
+    transform: scale(1)
+}
+
+.mix-img-2:hover .img-overlay-2 {
+    transform: scale(1);
+}
+
+.mix-img-3:hover .img-overlay-3 {
+    transform: scale(1);
+}
+
+.mix-img-4:hover .img-overlay-4 {
+    transform: scale(1);
+}
+
+.mix-img-5:hover .img-overlay-5 {
+    transform: scale(1);
+}
+
+.mix-img-6:hover .img-overlay-6 {
+    transform: scale(1);
+}
+
+.mix-img-7:hover .img-overlay-7 {
+    transform: scale(1);
+}
+
+.mix-img-8:hover .img-overlay-8 {
+    transform: scale(1);
+}
