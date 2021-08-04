@@ -242,7 +242,7 @@ p {
     background-color: #273a43;
 }
 
-.sub-footer p,
+.sub-footer p, .sub-footer p a,
 footer p {
     color: #c3c3c3;
 }
